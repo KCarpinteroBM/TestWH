@@ -4,7 +4,7 @@ services:
   ploneapi:
     build: eeacms/plonesaas
     ports:
-      - "http://localhost:8080"
+      - "3250:8080"
     environment:
       CORS_ALLOW_ORIGIN: "http://localhost:3000,http://127.0.0.1:3000"
     depends_on:
