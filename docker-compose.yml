@@ -4,4 +4,3 @@ services:
     image: owncloud
     ports:
       - 1234:80
-
